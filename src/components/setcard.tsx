@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     },
     title: {
         fontSize: 18, // Increase font size for the title
-        marginBottom: 5, // Add margin for spacing
+        marginBottom: 5, // Add margin for spacing      
     },
     time: {
         fontSize: 16, // Increase font size for time
