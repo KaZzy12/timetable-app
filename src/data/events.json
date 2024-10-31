@@ -1,0 +1,175 @@
+[
+    {
+      "day": "Saturday",
+      "stages": [
+        {
+          "stage": "Red",
+          "backgroundColor": "#FF0000",
+          "textColor": "white",
+          "sets": [
+            {
+              "time": "13:00",
+              "duration": 60,
+              "title": "Crypsis"
+            },
+            {
+              "time": "14:00",
+              "duration": 10,
+              "title": "Transi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de finu"
+            }
+          ]
+        },
+        {
+          "stage": "Blue",
+          "backgroundColor": "#00FFFF",
+          "textColor": "black",
+          "sets": [
+            {
+              "time": "12:00",
+              "duration": 60,
+              "title": "Radianze"
+            },
+            {
+              "time": "14:00",
+              "duration": 60,
+              "title": "Boray"
+            },
+            {
+              "time": "15:00",
+              "duration": 60,
+              "title": "Invector"
+            },
+            {
+              "time": "16:00",
+              "duration": 60,
+              "title": "Adaro"
+            },
+            {
+              "time": "16:00",
+              "duration": 60,
+              "title": "Sickmode & Krowdexx"
+            },
+            {
+              "time": "17:00",
+              "duration": 60,
+              "title": "Radianze"
+            }
+          ]
+        },
+        {
+          "stage": "Black",
+          "backgroundColor": "#555555",
+          "textColor": "white",
+          "sets": [
+            {
+              "time": "11:00",
+              "duration": 60,
+              "title": "Open Airbed Concert with JDX"
+            },
+            {
+              "time": "12:00",
+              "duration": 60,
+              "title": "Namara"
+            },
+            {
+              "time": "13:00",
+              "duration": 60,
+              "title": "Gridkiller"
+            },
+            {
+              "time": "14:00",
+              "duration": 60,
+              "title": "Endymion Millennium LIVE"
+            },
+            {
+              "time": "15:00",
+              "duration": 60,
+              "title": "Evil Activities"
+            }
+          ]
+        }
+      ]
+    },
+    {
+        "day": "Sunday",
+        "stages": [
+          {
+            "stage": "Red",
+            "backgroundColor": "#FF0000",
+            "textColor": "white",
+            "sets": [
+              {
+                "time": "13:00",
+                "duration": 120,
+                "title": "Vertile"
+              }
+            ]
+          },
+          {
+            "stage": "Blue",
+            "backgroundColor": "#00FFFF",
+            "textColor": "black",
+            "sets": [
+              {
+                "time": "12:00",
+                "duration": 60,
+                "title": "Radianze"
+              },
+              {
+                "time": "14:00",
+                "duration": 60,
+                "title": "Boray"
+              },
+              {
+                "time": "15:00",
+                "duration": 60,
+                "title": "Invector"
+              },
+              {
+                "time": "16:00",
+                "duration": 60,
+                "title": "Adaro"
+              },
+              {
+                "time": "16:00",
+                "duration": 60,
+                "title": "Sickmode & Krowdexx"
+              }
+            ]
+          },
+          {
+            "stage": "Black",
+            "backgroundColor": "#555555",
+            "textColor": "white",
+            "sets": [
+              {
+                "time": "11:00",
+                "duration": 60,
+                "title": "Open Airbed Concert with JDX"
+              },
+              {
+                "time": "12:00",
+                "duration": 60,
+                "title": "Namara"
+              },
+              {
+                "time": "13:00",
+                "duration": 60,
+                "title": "Gridkiller"
+              },
+              {
+                "time": "14:00",
+                "duration": 60,
+                "title": "Endymion Millennium LIVE"
+              },
+              {
+                "time": "15:00",
+                "duration": 60,
+                "title": "Evil Activities"
+              }
+            ]
+          }
+        ]
+      }
+  ]
+  
