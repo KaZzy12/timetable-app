@@ -15,7 +15,7 @@
             {
               "time": "14:00",
               "duration": 10,
-              "title": "Transi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de finu"
+              "title": "Transi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de finufouTransi de fouTransi de finufouTransi de fouTransi de finufouTransi de fouTransi de finufouTransi de fouTransi de finm"
             }
           ]
         },
@@ -51,7 +51,7 @@
             },
             {
               "time": "17:00",
-              "duration": 60,
+              "duration": 120,
               "title": "Radianze"
             }
           ]
@@ -60,6 +60,38 @@
           "stage": "Black",
           "backgroundColor": "#555555",
           "textColor": "white",
+          "sets": [
+            {
+              "time": "11:00",
+              "duration": 60,
+              "title": "Open Airbed Concert with JDX"
+            },
+            {
+              "time": "12:00",
+              "duration": 60,
+              "title": "Namara"
+            },
+            {
+              "time": "13:00",
+              "duration": 60,
+              "title": "Gridkiller"
+            },
+            {
+              "time": "14:00",
+              "duration": 60,
+              "title": "Endymion Millennium LIVE"
+            },
+            {
+              "time": "15:00",
+              "duration": 60,
+              "title": "Evil Activities"
+            }
+          ]
+        },
+        {
+          "stage": "Yellow",
+          "backgroundColor": "#FFD700",
+          "textColor": "black",
           "sets": [
             {
               "time": "11:00",

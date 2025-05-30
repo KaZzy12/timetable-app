@@ -4,6 +4,7 @@ import eventsData from "../data/events.json";
 import SetEntry from "./setentry";
 import SetCard from "./setcard";
 import { Set, Stage, Day } from "../types";
+import { getDayTimeRange, calculateMinimumInterval, generateTimeSlots } from "../utils";
 
 const Timetable = () => {
     const [selectedDay, setSelectedDay] = useState<string | null>(null);
@@ -64,12 +65,14 @@ const Timetable = () => {
                     />
                 ))}
             </ScrollView>
-            <ScrollView horizontal contentContainerStyle={styles.stagesContainer}>
+            <ScrollView horizontal stickyHeaderIndices={[1]} contentContainerStyle={styles.stagesContainer}>
                 {currentDay && currentDay.stages.map(stage => (
                     <View key={stage.stage} style={styles.stageContainer}>
-                        <Text style={[styles.stageTitle, { color: stage.backgroundColor }]}>
-                            {stage.stage}
-                        </Text>
+                        <View>
+                            <Text style={[styles.stageTitle, { color: stage.backgroundColor }]}>
+                                {stage.stage}
+                            </Text>
+                        </View>
                         <View style={styles.flatListContainer}>
                             <FlatList
                                 data={stage.sets}
@@ -97,6 +100,7 @@ const styles = StyleSheet.create({
       flex: 1,
       flexGrow: 1,
       padding: 10,
+      marginTop: 30,
       backgroundColor: '#000',
     },
     dayButtons: {
