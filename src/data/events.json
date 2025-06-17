@@ -1,207 +1,598 @@
 [
-    {
-      "day": "Saturday",
-      "stages": [
-        {
-          "stage": "Red",
-          "backgroundColor": "#FF0000",
-          "textColor": "white",
-          "sets": [
-            {
-              "time": "13:00",
-              "duration": 60,
-              "title": "Crypsis"
-            },
-            {
-              "time": "14:00",
-              "duration": 10,
-              "title": "Transi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de fouTransi de finufouTransi de fouTransi de finufouTransi de fouTransi de finufouTransi de fouTransi de finufouTransi de fouTransi de finm"
-            }
-          ]
-        },
-        {
-          "stage": "Blue",
-          "backgroundColor": "#00FFFF",
-          "textColor": "black",
-          "sets": [
-            {
-              "time": "12:00",
-              "duration": 60,
-              "title": "Radianze"
-            },
-            {
-              "time": "14:00",
-              "duration": 60,
-              "title": "Boray"
-            },
-            {
-              "time": "15:00",
-              "duration": 60,
-              "title": "Invector"
-            },
-            {
-              "time": "16:00",
-              "duration": 60,
-              "title": "Adaro"
-            },
-            {
-              "time": "16:00",
-              "duration": 60,
-              "title": "Sickmode & Krowdexx"
-            },
-            {
-              "time": "17:00",
-              "duration": 120,
-              "title": "Radianze"
-            }
-          ]
-        },
-        {
-          "stage": "Black",
-          "backgroundColor": "#555555",
-          "textColor": "white",
-          "sets": [
-            {
-              "time": "11:00",
-              "duration": 60,
-              "title": "Open Airbed Concert with JDX"
-            },
-            {
-              "time": "12:00",
-              "duration": 60,
-              "title": "Namara"
-            },
-            {
-              "time": "13:00",
-              "duration": 60,
-              "title": "Gridkiller"
-            },
-            {
-              "time": "14:00",
-              "duration": 60,
-              "title": "Endymion Millennium LIVE"
-            },
-            {
-              "time": "15:00",
-              "duration": 60,
-              "title": "Evil Activities"
-            }
-          ]
-        },
-        {
-          "stage": "Yellow",
-          "backgroundColor": "#FFD700",
-          "textColor": "black",
-          "sets": [
-            {
-              "time": "11:00",
-              "duration": 60,
-              "title": "Open Airbed Concert with JDX"
-            },
-            {
-              "time": "12:00",
-              "duration": 60,
-              "title": "Namara"
-            },
-            {
-              "time": "13:00",
-              "duration": 60,
-              "title": "Gridkiller"
-            },
-            {
-              "time": "14:00",
-              "duration": 60,
-              "title": "Endymion Millennium LIVE"
-            },
-            {
-              "time": "15:00",
-              "duration": 60,
-              "title": "Evil Activities"
-            }
-          ]
-        }
-      ]
-    },
-    {
-        "day": "Sunday",
-        "stages": [
+  {
+    "day": "Saturday",
+    "stages": [
+      {
+        "stage": "MAINSTAGE",
+        "backgroundColor": "#FDCB2F",
+        "textColor": "black",
+        "sets": [
           {
-            "stage": "Red",
-            "backgroundColor": "#FF0000",
-            "textColor": "white",
-            "sets": [
-              {
-                "time": "13:00",
-                "duration": 120,
-                "title": "Vertile"
-              }
-            ]
+            "time": "12:00",
+            "duration": 60,
+            "title": "Zelecter"
           },
           {
-            "stage": "Blue",
-            "backgroundColor": "#00FFFF",
-            "textColor": "black",
-            "sets": [
-              {
-                "time": "12:00",
-                "duration": 60,
-                "title": "Radianze"
-              },
-              {
-                "time": "14:00",
-                "duration": 60,
-                "title": "Boray"
-              },
-              {
-                "time": "15:00",
-                "duration": 60,
-                "title": "Invector"
-              },
-              {
-                "time": "16:00",
-                "duration": 60,
-                "title": "Adaro"
-              },
-              {
-                "time": "16:00",
-                "duration": 60,
-                "title": "Sickmode & Krowdexx"
-              }
-            ]
+            "time": "13:00",
+            "duration": 60,
+            "title": "Adrenalize vs Galactixx"
           },
           {
-            "stage": "Black",
-            "backgroundColor": "#555555",
-            "textColor": "white",
-            "sets": [
-              {
-                "time": "11:00",
-                "duration": 60,
-                "title": "Open Airbed Concert with JDX"
-              },
-              {
-                "time": "12:00",
-                "duration": 60,
-                "title": "Namara"
-              },
-              {
-                "time": "13:00",
-                "duration": 60,
-                "title": "Gridkiller"
-              },
-              {
-                "time": "14:00",
-                "duration": 60,
-                "title": "Endymion Millennium LIVE"
-              },
-              {
-                "time": "15:00",
-                "duration": 60,
-                "title": "Evil Activities"
-              }
-            ]
+            "time": "14:00",
+            "duration": 60,
+            "title": "Mandy"
+          },
+          {
+            "time": "15:00",
+            "duration": 30,
+            "title": "Atmozfears presents ABSTRAKT"
+          },
+          {
+            "time": "15:30",
+            "duration": 60,
+            "title": "Phuture Noize"
+          },
+          {
+            "time": "16:30",
+            "duration": 60,
+            "title": "Brennan Heart vs Jay Reeve FT Villain - presents Euphoric Madness"
+          },
+          {
+            "time": "17:30",
+            "duration": 60,
+            "title": "Outsiders"
+          },
+          {
+            "time": "18:30",
+            "duration": 30,
+            "title": "Aversion LIVE"
+          },
+          {
+            "time": "19:00",
+            "duration": 60,
+            "title": "D-Sturb"
+          },
+          {
+            "time": "20:00",
+            "duration": 60,
+            "title": "D-Block & S-te-Fan"
+          },
+          {
+            "time": "21:00",
+            "duration": 60,
+            "title": "Sub Zero Project"
+          },
+          {
+            "time": "22:00",
+            "duration": 60,
+            "title": "Rebelion"
+          },
+          {
+            "time": "23:00",
+            "duration": 40,
+            "title": "Dual Damage LIVE"
+          },
+          {
+            "time": "23:40",
+            "duration": 20,
+            "title": "Saturday Endshow"
+          }
+        ]
+      },
+      {
+        "stage": "INDOOR MAINSTAGE",
+        "backgroundColor": "#3498DB",
+        "textColor": "white",
+        "sets": [
+          {
+            "time": "12:00",
+            "duration": 60,
+            "title": "Savage Academy"
+          },
+          {
+            "time": "13:00",
+            "duration": 60,
+            "title": "RSLVD Records - Showcase"
+          },
+          {
+            "time": "14:00",
+            "duration": 60,
+            "title": "Devin Wild"
+          },
+          {
+            "time": "15:00",
+            "duration": 60,
+            "title": "The Purge vs Unresolved The Opening"
+          },
+          {
+            "time": "16:00",
+            "duration": 60,
+            "title": "The Purge vs EZG vs Dikke Baap"
+          },
+          {
+            "time": "17:00",
+            "duration": 60,
+            "title": "Unresolved vs Rejecta"
+          },
+          {
+            "time": "18:00",
+            "duration": 75,
+            "title": "The Purge vs Mind Dimension vs Main Concern"
+          },
+          {
+            "time": "19:15",
+            "duration": 75,
+            "title": "Unresolved vs E-Force vs Regain"
+          },
+          {
+            "time": "20:30",
+            "duration": 60,
+            "title": "The Purge vs Mish"
+          },
+          {
+            "time": "21:30",
+            "duration": 60,
+            "title": "Unresolved vs Radical Redemption"
+          },
+          {
+            "time": "22:30",
+            "duration": 30,
+            "title": "Omnya Carnage"
+          },
+          {
+            "time": "23:00",
+            "duration": 30,
+            "title": "Gezellige Uptempo vs Unresolved vs The Purge"
+          }
+        ]
+      },
+      {
+        "stage": "DYNAMITE",
+        "backgroundColor": "#DCDCDC",
+        "textColor": "black",
+        "sets": [
+          {
+            "time": "12:00",
+            "duration": 60,
+            "title": "DJ Contest"
+          },
+          {
+            "time": "13:00",
+            "duration": 75,
+            "title": "Kili vs Complex vs Valhalla"
+          },
+          {
+            "time": "14:15",
+            "duration": 60,
+            "title": "Pinotello vs Aalst"
+          },
+          {
+            "time": "15:15",
+            "duration": 60,
+            "title": "Never Surrender"
+          },
+          {
+            "time": "16:15",
+            "duration": 45,
+            "title": "Noxiouz vs Satirized - The Opening"
+          },
+          {
+            "time": "17:00",
+            "duration": 30,
+            "title": "The Dope Doctor pres. X-Ray Live"
+          },
+          {
+            "time": "17:30",
+            "duration": 60,
+            "title": "Noxiouz vs Satirized vs The Straikerz"
+          },
+          {
+            "time": "18:30",
+            "duration": 60,
+            "title": "Major Conspiracy"
+          },
+          {
+            "time": "19:30",
+            "duration": 60,
+            "title": "Noxiouz vs The Dark Horror"
+          },
+          {
+            "time": "20:30",
+            "duration": 30,
+            "title": "Manifest Destiny LIVE"
+          },
+          {
+            "time": "21:00",
+            "duration": 60,
+            "title": "Satirized vs Barber vs Lekkerfaces"
+          },
+          {
+            "time": "22:00",
+            "duration": 60,
+            "title": "Partyraiser vs Unproven"
+          },
+          {
+            "time": "23:00",
+            "duration": 45,
+            "title": "Noxiouz vs Satirized The Closing"
+          }
+        ]
+      },
+      {
+        "stage": "OUTRAGEOUS!",
+        "backgroundColor": "#62B887",
+        "textColor": "#FFFFFF",
+        "host": "MC SYCO",
+        "sets": [
+          {
+            "time": "12:00",
+            "duration": 60,
+            "title": "DJ Contest"
+          },
+          {
+            "time": "13:00",
+            "duration": 60,
+            "title": "Jones & Jason Payne - The Timelapse"
+          },
+          {
+            "time": "14:00",
+            "duration": 60,
+            "title": "The Pitcher - Classics"
+          },
+          {
+            "time": "15:00",
+            "duration": 60,
+            "title": "Dr. Rude vs The Darkraver"
+          },
+          {
+            "time": "16:00",
+            "duration": 60,
+            "title": "Pat B vs Mish - Jumpstyle Special"
+          },
+          {
+            "time": "17:00",
+            "duration": 60,
+            "title": "Mark with A K & MC Chucky"
+          },
+          {
+            "time": "18:00",
+            "duration": 60,
+            "title": "Nosferatu vs Endymion - Millenium set"
+          },
+          {
+            "time": "19:00",
+            "duration": 60,
+            "title": "Frontliner - Classics"
+          },
+          {
+            "time": "20:00",
+            "duration": 60,
+            "title": "Adaro - Classics"
+          },
+          {
+            "time": "21:00",
+            "duration": 60,
+            "title": "The Viper vs Panic - Millenium set"
+          },
+          {
+            "time": "22:00",
+            "duration": 45,
+            "title": "GPF"
+          }
+        ]
+      },
+      {
+        "stage": "ENERGETIC BY MALELIONS",
+        "backgroundColor": "#3498DB",
+        "textColor": "white",
+        "host": "MC SIGNAL",
+        "sets": [
+          {
+            "time": "12:00",
+            "duration": 60,
+            "title": "Het Pompstation"
+          },
+          {
+            "time": "13:00",
+            "duration": 60,
+            "title": "Revellers vs Bössels"
+          },
+          {
+            "time": "14:00",
+            "duration": 60,
+            "title": "Spiady vs Guizcore"
+          },
+          {
+            "time": "15:00",
+            "duration": 60,
+            "title": "Amigo vs DMRC"
+          },
+          {
+            "time": "16:00",
+            "duration": 30,
+            "title": "Complex pres. Rammeroni LIVE"
+          },
+          {
+            "time": "16:30",
+            "duration": 60,
+            "title": "MT vs T.M.O vs Silky Noize"
+          },
+          {
+            "time": "17:30",
+            "duration": 60,
+            "title": "Rosbeek vs Tharoza"
+          },
+          {
+            "time": "18:30",
+            "duration": 30,
+            "title": "Lunakorpz LIVE"
+          },
+          {
+            "time": "19:00",
+            "duration": 60,
+            "title": "Akimbo vs Samynator"
+          },
+          {
+            "time": "20:00",
+            "duration": 60,
+            "title": "Eraized vs Kroefoe"
+          },
+          {
+            "time": "21:00",
+            "duration": 60,
+            "title": "Deviation vs Screecher"
+          },
+          {
+            "time": "22:00",
+            "duration": 60,
+            "title": "Soulblast vs Guiberz"
+          }
+        ]
+      },
+      {
+        "stage": "KARNAVAL FESTIVAL FEESTCAFE",
+        "backgroundColor": "#FDCB2F",
+        "textColor": "black",
+        "sets": [
+          {
+            "time": "13:00",
+            "duration": 150,
+            "title": "DJ Mats"
+          },
+          {
+            "time": "15:30",
+            "duration": 30,
+            "title": "Zanger Bas"
+          },
+          {
+            "time": "16:00",
+            "duration": 60,
+            "title": "DJ Mitchel van Wijk"
+          },
+          {
+            "time": "17:00",
+            "duration": 30,
+            "title": "Sven Versteeg"
+          },
+          {
+            "time": "17:30",
+            "duration": 30,
+            "title": "DJ Mitchel van Wijk"
+          },
+          {
+            "time": "18:00",
+            "duration": 30,
+            "title": "Guus Doggen"
+          },
+          {
+            "time": "18:30",
+            "duration": 30,
+            "title": "DJ Mitchel van Wijk"
+          },
+          {
+            "time": "19:00",
+            "duration": 30,
+            "title": "Vieze Jack"
+          },
+          {
+            "time": "19:30",
+            "duration": 30,
+            "title": "DJ Mitchel van Wijk"
+          },
+          {
+            "time": "20:00",
+            "duration": 60,
+            "title": "Buren van de Brandweer"
+          },
+          {
+            "time": "21:00",
+            "duration": 30,
+            "title": "DJ Mitchel van Wijk"
+          },
+          {
+            "time": "21:30",
+            "duration": 30,
+            "title": "Gullie"
+          },
+          {
+            "time": "22:00",
+            "duration": 60,
+            "title": "DJ Mitchel van Wijk"
+          }
+        ]
+      },
+      {
+        "stage": "BOOMBOX",
+        "backgroundColor": "#8BC34A",
+        "textColor": "black",
+        "sets": [
+          {
+            "time": "12:00",
+            "duration": 60,
+            "title": "Redhot"
+          },
+          {
+            "time": "13:00",
+            "duration": 60,
+            "title": "DJ Contest"
+          },
+          {
+            "time": "14:00",
+            "duration": 60,
+            "title": "Testarossa"
+          },
+          {
+            "time": "15:00",
+            "duration": 60,
+            "title": "Double Trouble"
+          },
+          {
+            "time": "16:00",
+            "duration": 60,
+            "title": "Unique"
+          },
+          {
+            "time": "17:00",
+            "duration": 60,
+            "title": "Sabotage vs The Raider"
+          },
+          {
+            "time": "18:00",
+            "duration": 60,
+            "title": "99PRBLMZ"
+          },
+          {
+            "time": "19:00",
+            "duration": 60,
+            "title": "Captivator"
+          },
+          {
+            "time": "20:00",
+            "duration": 60,
+            "title": "Invated"
+          },
+          {
+            "time": "21:00",
+            "duration": 60,
+            "title": "Maistro vs Undivided"
+          },
+          {
+            "time": "22:00",
+            "duration": 60,
+            "title": "DJ Contest"
+          }
+        ]
+      },
+      {
+        "stage": "MELODICA",
+        "backgroundColor": "#62B887",
+        "textColor": "#FFFFFF",
+        "host": "MC SYNERGY",
+        "sets": [
+          {
+            "time": "12:00",
+            "duration": 60,
+            "title": "Deenis"
+          },
+          {
+            "time": "13:00",
+            "duration": 60,
+            "title": "Envine"
+          },
+          {
+            "time": "14:00",
+            "duration": 60,
+            "title": "Rebourne"
+          },
+          {
+            "time": "15:00",
+            "duration": 30,
+            "title": "Solstice LIVE"
+          },
+          {
+            "time": "15:30",
+            "duration": 60,
+            "title": "Audiotricz vs Demi Kanon"
+          },
+          {
+            "time": "16:30",
+            "duration": 60,
+            "title": "Cyber"
+          },
+          {
+            "time": "17:30",
+            "duration": 60,
+            "title": "Wasted Penguinz"
+          },
+          {
+            "time": "18:30",
+            "duration": 30,
+            "title": "Refuzion LIVE"
+          },
+          {
+            "time": "19:00",
+            "duration": 60,
+            "title": "Keltek"
+          },
+          {
+            "time": "20:00",
+            "duration": 60,
+            "title": "Ecstatic - The Essence"
+          },
+          {
+            "time": "21:00",
+            "duration": 60,
+            "title": "Frontliner"
+          },
+          {
+            "time": "22:00",
+            "duration": 30,
+            "title": "Galactixx LIVE"
+          },
+          {
+            "time": "22:30",
+            "duration": 60,
+            "title": "Aftershock"
+          }
+        ]
+      },
+      {
+        "stage": "INTENTS CITY",
+        "backgroundColor": "#6A5ACD",
+        "textColor": "white",
+        "sets": [
+          {
+            "time": "11:00",
+            "duration": 60,
+            "title": "Taco & Tities"
+          },
+          {
+            "time": "15:00",
+            "duration": 60,
+            "title": "Chapter V vs Coldax Grasmaaien Voor Gevorderden"
+          },
+          {
+            "time": "16:00",
+            "duration": 60,
+            "title": "Rooler presents Early Hardstyle"
+          },
+          {
+            "time": "17:00",
+            "duration": 60,
+            "title": "Exproz vs The Smiler"
+          },
+          {
+            "time": "18:00",
+            "duration": 60,
+            "title": "Anderex"
+          },
+          {
+            "time": "19:00",
+            "duration": 30,
+            "title": "Bössels & Roosterz: Boosterz LIVE"
           }
         ]
       }
-  ]
-  
+    ]
+  }
+]
