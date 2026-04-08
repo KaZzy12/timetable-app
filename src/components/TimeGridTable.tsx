@@ -374,7 +374,7 @@ const TimeGridTable = () => {
         </TouchableWithoutFeedback>
       </Modal>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Festival Timetable</Text>
+        <Text style={styles.headerTitle}>Rebellion Timetable</Text>
         <ScrollView
           horizontal
           contentContainerStyle={styles.dayButtons}
@@ -621,15 +621,14 @@ const styles = StyleSheet.create({
   cardContainer: {
     width: "90%",
     maxWidth: 400,
-    backgroundColor: "#fff",
+    backgroundColor: "transparent",
     borderRadius: 12,
-    padding: 20,
+    padding: 0,
     shadowColor: "#000",
     shadowOffset: { width: 0, height: 10 },
     shadowOpacity: 0.3,
     shadowRadius: 20,
     elevation: 20,
-    // Force center positioning
     alignSelf: "center",
     marginVertical: "auto",
   },
