@@ -37,6 +37,15 @@ const TimeGridTable = () => {
   const [activeSet, setActiveSet] = useState<Set | null>(null);
   const [activeStage, setActiveStage] = useState<Stage | null>(null);
 
+  // Any hour below this threshold is treated as "next day" (e.g. 01:00 → 25:00)
+  const MIDNIGHT_THRESHOLD = 8;
+  const normalizeHour = (hour: number): number =>
+    hour < MIDNIGHT_THRESHOLD ? hour + 24 : hour;
+  const formatTimeSlotLabel = (timeSlot: string): string => {
+    const [h, m] = timeSlot.split(":").map(Number);
+    return `${(h % 24).toString().padStart(2, "0")}:${m.toString().padStart(2, "0")}`;
+  };
+
   // Helper function to calculate set duration in minutes
   const calculateSetDuration = (set: Set): number => {
     // Check if set has duration property
@@ -65,7 +74,7 @@ const TimeGridTable = () => {
           "Error calculating set duration from time range:",
           error,
           "for set:",
-          set
+          set,
         );
       }
     }
@@ -77,7 +86,7 @@ const TimeGridTable = () => {
   const getEarliestStartTime = (): number => {
     if (!currentDay) return 10; // fallback to 10 if no day selected
 
-    let earliestHour = 23; // start with latest possible hour
+    let earliestHour = 30; // start above any possible normalized hour
 
     currentDay.stages.forEach((stage) => {
       stage.sets.forEach((set) => {
@@ -87,7 +96,7 @@ const TimeGridTable = () => {
             ? set.time.split(" - ")[0]
             : set.time;
 
-          const hour = parseInt(startTime.split(":")[0]);
+          const hour = normalizeHour(parseInt(startTime.split(":")[0]));
           if (hour < earliestHour) {
             earliestHour = hour;
           }
@@ -95,7 +104,7 @@ const TimeGridTable = () => {
       });
     });
 
-    return earliestHour === 23 ? 10 : earliestHour; // fallback to 10 if no sets found
+    return earliestHour === 30 ? 10 : earliestHour; // fallback to 10 if no sets found
   };
 
   // Helper function to find the latest end time for the current day
@@ -107,25 +116,24 @@ const TimeGridTable = () => {
     currentDay.stages.forEach((stage) => {
       stage.sets.forEach((set) => {
         if (set.time) {
-          let endTime: string;
+          let endHour: number;
 
           if (set.time.includes(" - ")) {
             // Format: "13:00 - 14:00"
-            endTime = set.time.split(" - ")[1];
+            const endTime = set.time.split(" - ")[1];
+            endHour = normalizeHour(parseInt(endTime.split(":")[0]));
           } else {
             // Format: "13:00" - calculate end time based on duration
             const startTime = set.time;
             const [startHour, startMin] = startTime.split(":").map(Number);
             const durationMinutes = calculateSetDuration(set);
-            const endMinutes = startHour * 60 + startMin + durationMinutes;
-            const endHour = Math.floor(endMinutes / 60);
-            const endMin = endMinutes % 60;
-            endTime = `${endHour}:${endMin.toString().padStart(2, "0")}`;
+            const endMinutes =
+              normalizeHour(startHour) * 60 + startMin + durationMinutes;
+            endHour = Math.floor(endMinutes / 60);
           }
 
-          const hour = parseInt(endTime.split(":")[0]);
-          if (hour > latestHour) {
-            latestHour = hour;
+          if (endHour > latestHour) {
+            latestHour = endHour;
           }
         }
       });
@@ -295,7 +303,7 @@ const TimeGridTable = () => {
   // Helper function to check if a time slot is occupied by a set that started earlier
   const isSlotOccupiedByEarlierSet = (
     stage: Stage,
-    timeSlot: string
+    timeSlot: string,
   ): boolean => {
     const [currentHour, currentMin] = timeSlot.split(":").map(Number);
     const currentMinutes = currentHour * 60 + currentMin;
@@ -323,7 +331,7 @@ const TimeGridTable = () => {
       ? set.time.split(" - ")[0]
       : set.time;
     const [startHour, startMin] = setStartTime.split(":").map(Number);
-    const startMinutes = startHour * 60 + startMin;
+    const startMinutes = normalizeHour(startHour) * 60 + startMin;
 
     const durationMinutes = calculateSetDuration(set);
     const endMinutes = startMinutes + durationMinutes;
@@ -374,7 +382,7 @@ const TimeGridTable = () => {
         </TouchableWithoutFeedback>
       </Modal>
       <View style={styles.header}>
-        <Text style={styles.headerTitle}>Rebellion Timetable</Text>
+        <Text style={styles.headerTitle}>Rebirth Timetable</Text>
         <ScrollView
           horizontal
           contentContainerStyle={styles.dayButtons}
@@ -429,7 +437,9 @@ const TimeGridTable = () => {
             >
               {timeSlots.map((timeSlot, timeIndex) => (
                 <View key={`time-${timeSlot}`} style={styles.timeSlotVertical}>
-                  <Text style={styles.timeTextVertical}>{timeSlot}</Text>
+                  <Text style={styles.timeTextVertical}>
+                    {formatTimeSlotLabel(timeSlot)}
+                  </Text>
                 </View>
               ))}
             </Animated.View>
@@ -479,7 +489,7 @@ const TimeGridTable = () => {
                         />
                       </View>
                     );
-                  })
+                  }),
                 )
                 .flat()}
           </Animated.View>
